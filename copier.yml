@@ -12,3 +12,13 @@ _skip_answered: true
 
 # https://copier.readthedocs.io/en/stable/configuring/#exclude
 _exclude: []
+
+ebook_name:
+  type: str
+  help: "Oficial name of the e-book."
+
+ebook_version:
+  type: str
+  help: "Release version of the ebook."
+
+# vim: set spelllang=en :
