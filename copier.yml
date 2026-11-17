@@ -1,0 +1,14 @@
+_subdirectory: sablony
+_answers_file: .copier-answers.yml
+
+# When True, delete dst_path if there's an error.
+# See the cleanup_on_error setting for related information.
+_cleanup_on_error: false
+
+_os: "linux"
+
+# https://copier.readthedocs.io/en/stable/configuring/#skip_answered
+_skip_answered: true
+
+# https://copier.readthedocs.io/en/stable/configuring/#exclude
+_exclude: []
