@@ -61,6 +61,7 @@ fi
 
 if ! pandoc -f markdown -t pdf \
   00. metadata.yml ./*.md \
+  --pdf-engine=weasyprint \
   --toc --tod-depth=2 \
   --css=style.css \
   --epub-cover-image=cover.jpg \
